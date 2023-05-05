@@ -13,6 +13,19 @@ body {
   font-style: normal;
 }
 
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+a.hero-wa {
+  margin: 40px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
 .logo h2 {
   color: white;
 }
