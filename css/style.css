@@ -1625,7 +1625,7 @@ h3 {
 .slider_area .single_slider .slider_text h3 {
   color: #fff;
   font-family: "Muli", sans-serif;
-  font-size: 80px;
+  font-size: 40px;
   text-transform: capitalize;
   font-weight: 700;
   line-height: 82px;
@@ -1659,15 +1659,25 @@ h3 {
 
 /* line 160, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h3 span {
-  font-weight: 700;
+  font-weight: 500;
 }
 
 @media (max-width: 767px) {
   /* line 141, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text h3 {
-    font-size: 30px;
+    font-size: 20px;
     line-height: 35px;
   }
+  .slider_area .single_slider .slider_text span::before {
+  position: absolute;
+  background: #fff;
+  width: 20px;
+  height: 2px;
+  content: "";
+  left: -67px;
+  top: 50%;
+  margin-bottom: -1px;
+}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1700,7 +1710,7 @@ h3 {
 .slider_area .single_slider .slider_text span::before {
   position: absolute;
   background: #fff;
-  width: 50px;
+  width: 20px;
   height: 2px;
   content: "";
   left: -67px;
