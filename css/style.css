@@ -1667,6 +1667,7 @@ h3 {
   .slider_area .single_slider .slider_text h3 {
     font-size: 20px;
     line-height: 35px;
+    margin-top: 80px;
   }
   .slider_area .single_slider .slider_text span::before {
   position: absolute;
@@ -1674,7 +1675,7 @@ h3 {
   width: 20px;
   height: 2px;
   content: "";
-  left: -67px;
+  left: -200px;
   top: 50%;
   margin-bottom: -1px;
 }
@@ -1710,10 +1711,10 @@ h3 {
 .slider_area .single_slider .slider_text span::before {
   position: absolute;
   background: #fff;
-  width: 20px;
+  width: 10px;
   height: 2px;
   content: "";
-  left: -67px;
+  left: -10px;
   top: 50%;
   margin-bottom: -1px;
 }
